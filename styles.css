@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'RedHat';
+    src: url('https://fonts.google.com/specimen/Red+Hat+Display');
+}
+
+:root{
+    /*Primary*/
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+    /*Neutral*/
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'RedHat',sans-serif;
+    font-size: 16px;
+    background-color: var(--Pale_blue);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:white;
+    height: 550px;
+    width: 325px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 20px;
+    
+}
+.container > *{
+    margin: 20px 20px;
+}
+
+.img{
+    height: 150px;
+    width: 325px;
+    margin: 0;
+}
+.img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.summary{
+    text-align: center;
+}
+
+.summary > *{
+    margin: 20px 20px;
+}
+
+.summary p{
+    color: var(--Desaturated_blue);
+    line-height: 1.5rem;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 285px;
+    height: 300px;
+    margin: 0px;
+    background-color: var(--Very_pale_blue);
+    border-radius: 10px;
+    font-size: 14px;
+}
+.plan a{
+    color: var(--Bright_blue);
+}
+
+.plan a:hover{
+    text-decoration: none;
+}
+
+.price{
+    color: var(--Desaturated_blue);
+    line-height: 1.5rem;
+}
+
+.proceed {
+    width: 285px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Bright_blue);
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px var(--Pale_blue);
+}
+
+.proceed a{
+    text-decoration: none;
+    color: white;
+}
+
+.proceed:hover{
+    opacity: 0.7;
+}
+
+.cancel{
+    margin-top: 0px;
+}
+.cancel a{
+    color: var(--Desaturated_blue);
+    text-decoration: none;
+}
+.cancel a:hover{
+    color: black;
+}
+
