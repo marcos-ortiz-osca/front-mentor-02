@@ -13,7 +13,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
 
-
 ### The challenge
 
 - this project was made without media-queries 
