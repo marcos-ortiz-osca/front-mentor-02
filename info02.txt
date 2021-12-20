@@ -1,3 +1,0 @@
-Ahora estoy en el segundo archivo.txt
-Y le agrego cambios posteriormente
-
