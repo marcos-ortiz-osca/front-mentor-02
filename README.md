@@ -24,8 +24,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: https://github.com/marcos-ortiz-osca/front-mentor-03.git
-- Live Site URL: https://marcos-ortiz-osca.github.io/front-mentor-03/
+- Solution URL: https://github.com/marcos-ortiz-osca/front-mentor-02.git
+- Live Site URL: https://marcos-ortiz-osca.github.io/front-mentor-02/
 
 ## My process
 
